@@ -8,9 +8,9 @@
         "3": "CP860",
         "4": "CP863",
         "5": "CP865",
-        "6": "CP1252",
-        "7": "CP737",
-        "8": "CP862",
+        "6": "Unknown",
+        "7": "Unknown",
+        "8": "Unknown",
         "11": "CP851",
         "12": "CP853",
         "13": "CP857",
@@ -26,7 +26,7 @@
         "23": "Unknown",
         "24": "Unknown",
         "25": "Unknown",
-        "26": "Thai",
+        "26": "Unknown",
         "30": "TCVN-3-1",
         "31": "TCVN-3-2",
         "32": "CP720",
@@ -63,8 +63,41 @@
         "75": "Unknown",
         "82": "Unknown",
         "254": "Unknown",
+        "253": "UTF-8",
         "255": "utf8"
       },
+      "features": {
+                "barcodeA": false,
+                "barcodeB": false,
+                "bitImageColumn": false,
+                "bitImageRaster": true,
+                "graphics": false,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": false,
+                "pdf417Code": false,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": false,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": "Unknown",
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
+            },
       "vendor": "Generic",
       "model": "Default",
       "description": "Default ESC/POS profile"
